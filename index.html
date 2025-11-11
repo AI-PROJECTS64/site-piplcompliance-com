@@ -1,227 +1,213 @@
-<!doctype html>
-<html lang="fr">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>PIPLCompliance.com</title>
-<meta name="description" content="PIPLCompliance.com — référence FR/EN pour la conformité PIPL (protection des informations personnelles) & cadres connexes : gouvernance, transferts, bases légales, consentement, TIAs, preuves & auditabilité. Offres sérieuses uniquement (entreprises & institutions).">
-<meta property="og:title" content="PIPLCompliance.com">
-<meta property="og:description" content="PIPL compliance — gouvernance, transferts, consentement, preuves & audit.">
-<meta property="og:image" content="https://www.piplcompliance.com/og.jpg">
-<link rel="icon" href="/logo-piplcompliance.png">
-<style>
-:root{--bg:#0e1621;--card:#121b27;--ink:#e9eef5;--muted:#a9b4c2;--line:#223042;--pill:#0f2236}
-*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--ink);font:15.5px/1.65 system-ui,-apple-system,Segoe UI,Inter,Roboto,Arial}
-a{color:inherit}.wrap{max-width:960px;margin:30px auto;padding:0 16px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin-bottom:14px}
-.hrow{display:flex;justify-content:space-between;align-items:center;gap:10px}
-.logo{width:160px;height:auto;margin:6px 0 2px}
-h1{font-size:28px;margin:0 0 8px}h2{font-size:16px;margin:0 0 10px}
-p{margin:6px 0;color:var(--muted)}
-.badges{display:flex;flex-wrap:wrap;gap:8px}
-.badge{background:var(--pill);border:1px solid var(--line);color:#cfe5ff;border-radius:999px;padding:6px 10px;font-size:12.5px}
-.btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}
-.btn{background:#11263a;border:1px solid #1e3851;color:#d8eeff;padding:8px 12px;border-radius:10px;text-decoration:none}
-.btn:hover{border-color:#396289}.btn-ghost{background:#0f1f33;border:1px solid #263a51;color:#cbd8e6}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.item{background:var(--pill);border:1px solid var(--line);padding:10px 12px;border-radius:10px;color:#c7d5e6}
-.footer{font-size:12.5px;color:#93a2b3;margin:14px 0;text-align:left}
-.lang{display:flex;gap:8px}
-.lang a{display:inline-block;background:#0f1f33;border:1px solid var(--line);padding:6px 10px;border-radius:999px;color:#cbd8e6;text-decoration:none}
-.lang a.active{border-color:#2d5073;color:#e9f4ff}
-.note{font-size:12px;color:#9fb2c7}
-@media(max-width:720px){.grid{grid-template-columns:1fr}}
-</style>
-<script>
-function setLang(lang){
-  document.documentElement.lang = lang;
-  document.getElementById('fr').style.display = (lang==='fr')?'block':'none';
-  document.getElementById('en').style.display = (lang==='en')?'block':'none';
-  document.getElementById('btn-fr').classList.toggle('active', lang==='fr');
-  document.getElementById('btn-en').classList.toggle('active', lang==='en');
-}
-</script>
-</head>
-<body onload="setLang('fr')">
-<div class="wrap">
-
-  <!-- HEADER / LANG -->
-  <div class="hrow">
-    <div class="badge">Disponible à l’acquisition</div>
-    <div class="lang">
-      <a href="#fr" id="btn-fr" onclick="setLang('fr')">FR</a>
-      <a href="#en" id="btn-en" onclick="setLang('en')">EN</a>
-    </div>
-  </div>
-
-  <!-- ===== FR ===== -->
-  <div id="fr">
-    <div class="card">
-      <h1>PIPLCompliance.com</h1>
+<!-- ===== FR ===== -->
+<div id="fr">
+  <div class="card">
+    <div class="hrow" style="align-items:flex-start">
+      <div>
+        <h1>PIPLCompliance.com</h1>
+        <p style="margin-top:4px;color:#cfd9e6">
+          Autorité & crédibilité pour la <strong>conformité PIPL</strong> (protection des informations personnelles) et cadres connexes :
+          gouvernance des données, bases légales & <strong>consentement</strong>, transferts internationaux, TIAs, contrats & preuves,
+          <strong>auditabilité</strong>. Positionnement <strong>B2B</strong> (éditeurs GRC/Privacy, cabinets, groupes internationaux).
+        </p>
+      </div>
       <img class="logo" src="/logo-piplcompliance.png" alt="PIPLCompliance.com">
-      <p>Autorité & crédibilité pour la <strong>conformité PIPL</strong> (protection des informations personnelles) & cadres connexes : gouvernance des données, bases légales & <strong>consentement</strong>, transferts internationaux, TIAs, contrats & preuves, <strong>auditabilité</strong>.</p>
-      <p class="note"><strong>Nota :</strong> site informatif indépendant, <strong>usage descriptif</strong>. <strong>Aucune affiliation officielle</strong> à une autorité. <strong>Pas de conseil juridique.</strong></p>
-      <p><strong>Offres sérieuses uniquement (entreprises & institutions).</strong></p>
-      <div class="btns">
-        <a class="btn" href="mailto:contact@piplcompliance.com?subject=PIPLCompliance.com%20-%20Offre%20ou%20NDA">Proposer une offre / Demander un NDA</a>
-        <a class="btn btn-ghost" href="#fr-why">Pourquoi ce nom ?</a>
-      </div>
     </div>
 
-    <div class="grid">
-      <div class="card">
-        <h2>Pourquoi ce nom vaut cher</h2>
-        <div class="item">Exact-match mémorable — “piplcompliance.com” : signal pro immédiat</div>
-        <div class="item">Fit B2B direct — GRC/privacy, cabinets, groupes globaux</div>
-        <div class="item">Portée internationale — registres, consentement, transferts, preuves</div>
-        <div class="item">Écosystème prêt — APIs, connecteurs, portails, tableaux de bord</div>
-      </div>
-      <div class="card">
-        <h2>Cas d’usage possibles</h2>
-        <div class="item">Hub privacy : registres, gestion des motifs & consentements</div>
-        <div class="item">Transferts : TIAs, clauses, due diligence & monitoring</div>
-        <div class="item">Automatisation : workflows, politiques, attestations & audits</div>
-        <div class="item">Intégrations : GRC, IAM, DLP, MDM, SIEM, evidence store</div>
-      </div>
-    </div>
+    <p class="note" style="margin-top:8px">
+      <strong>Nota :</strong> site informatif indépendant — <strong>usage descriptif</strong>. <strong>Aucune affiliation officielle</strong>
+      avec des autorités ou programmes tiers. <strong>Pas de conseil juridique.</strong>
+    </p>
 
-    <div id="fr-why" class="card">
-      <h2>Acquisition (process sécurisé)</h2>
-      <p>NDA → data-room → offre → escrow → transfert. Vision long-terme & usage à forte valeur.</p>
-      <div class="badges">
-        <span class="badge">Priorité acteurs responsables</span>
-        <span class="badge">Usage éthique & conformité</span>
-        <span class="badge">Aucune affiliation officielle</span>
-      </div>
-      <div class="btns" style="margin-top:8px">
-        <a class="btn" href="mailto:contact@piplcompliance.com?subject=PIPLCompliance.com%20-%20Contact">Contact direct : contact@piplcompliance.com</a>
-      </div>
-    </div>
+    <div class="btns" style="margin-top:10px">
+      <a class="btn" href="mailto:contact@piplcompliance.com?subject=PIPLCompliance.com%20-%20Offre%20ou%20NDA">Proposer une offre / Demander un NDA</a>
 
-    <div class="card">
-      <h2>Actifs complémentaires (sélection)</h2>
-      <div class="badges">
-        <a class="badge" href="https://www.cbprcompliance.com/" target="_blank" rel="noopener">CBPRCompliance.com — transferts transfrontières</a>
-        <a class="badge" href="https://www.nistcsfcompliance.com/" target="_blank" rel="noopener">NISTCSFCompliance.com — CSF 2.0 & contrôles</a>
-        <a class="badge" href="https://www.dppcompliance.com/" target="_blank" rel="noopener">DPPCompliance.com — Digital Product Passport (ESPR)</a>
-        <a class="badge" href="https://www.passeportproduit.fr/" target="_blank" rel="noopener">PasseportProduit.fr — DPP (FR/EU)</a>
-      </div>
-      <p class="small">Packs multi-actifs possibles — <a href="mailto:contact@piplcompliance.com">contact@piplcompliance.com</a></p>
-    </div>
-    <!-- ===== DOCS FR ===== -->
-    <div id="fr-docs" class="card">
-      <h2>Documents / Briefs</h2>
-      <div class="btns">
-        <a class="btn" href="/docs/docspiplcompliance-brief-fr-202511.pdf" target="_blank" rel="noopener" download>
-          Télécharger le brief (FR, PDF)
-        </a>
-        <a class="btn btn-ghost" href="/docs/docspiplcompliance-brief-fr-202511.pdf" target="_blank" rel="noopener">
-          Ouvrir dans le navigateur
-        </a>
-      </div>
-
-      <details style="margin-top:10px">
-        <summary class="item" style="cursor:pointer">Aperçu rapide (PDF) — chargé à l’ouverture</summary>
-        <div style="margin-top:10px; aspect-ratio: 16/9; max-height:70vh; border:1px solid var(--line); border-radius:10px; overflow:hidden; background:#0f1f33">
-          <iframe
-            src="/docs/docspiplcompliance-brief-fr-202511.pdf#view=FitH"
-            title="Aperçu Brief FR — PIPLCompliance.com"
-            style="width:100%; height:100%; border:0"
-            loading="lazy"
-          ></iframe>
-        </div>
-      </details>
-    </div>
-
-    <div class="footer">
-      © PIPLCompliance.com — actif numérique premium. Pas de conseil juridique. Aucune affiliation avec des marques/organismes tiers. Usage descriptif uniquement. — Contact : <a href="mailto:contact@piplcompliance.com">contact@piplcompliance.com</a>
+      <!-- LinkedIn (logo SVG inline pour un rendu propre) -->
+      <a class="btn btn-ghost" href="https://www.linkedin.com/company/piplcompliance" target="_blank" rel="noopener" aria-label="LinkedIn PIPLCompliance">
+        <span style="display:inline-flex;align-items:center;gap:8px">
+          <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5C0 2.12 1.12 1 2.5 1S4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.07c.67-1.27 2.3-2.6 4.73-2.6C22.08 7.6 24 10 24 14.17V24h-5v-8.72c0-2.08-.04-4.76-2.9-4.76c-2.9 0-3.35 2.27-3.35 4.61V24H7.5V8z"/></svg>
+          LinkedIn
+        </span>
+      </a>
+      <a class="btn btn-ghost" href="#fr-why">Pourquoi ce nom ?</a>
     </div>
   </div>
 
-  <!-- ===== EN ===== -->
-  <div id="en" style="display:none">
+  <div class="grid">
     <div class="card">
-      <h1>PIPLCompliance.com</h1>
-      <img class="logo" src="/logo-piplcompliance.png" alt="PIPLCompliance.com">
-      <p>Authority for <strong>PIPL compliance</strong> & related frameworks: data governance, legal bases & <strong>consent</strong>, cross-border transfers, TIAs, contracts & evidence, <strong>auditability</strong>.</p>
-      <p class="note"><strong>Note:</strong> independent informational site, <strong>descriptive use</strong>. <strong>No official affiliation</strong> with any authority. <strong>No legal advice.</strong></p>
-      <p><strong>Serious offers only (companies & institutions).</strong></p>
-      <div class="btns">
-        <a class="btn" href="mailto:contact@piplcompliance.com?subject=PIPLCompliance.com%20-%20Offer%20or%20NDA">Submit an offer / Request NDA</a>
-        <a class="btn btn-ghost" href="#en-why">Why this name?</a>
-      </div>
+      <h2>Pourquoi ce nom vaut cher</h2>
+      <div class="item">Exact-match mémorable — « piplcompliance.com » : signal pro immédiat</div>
+      <div class="item">Fit B2B direct — GRC/Privacy, cabinets, groupes globaux</div>
+      <div class="item">Portée internationale — registres, consentement, transferts, preuves</div>
+      <div class="item">Écosystème prêt — APIs, connecteurs, portails, tableaux de bord</div>
     </div>
-
-    <div class="grid">
-      <div class="card">
-        <h2>Why this name is valuable</h2>
-        <div class="item">Exact-match & memorable → instant professional signal</div>
-        <div class="item">Direct B2B fit — GRC/privacy vendors, consultancies, global groups</div>
-        <div class="item">International scope — registers, consent, transfers, evidence</div>
-        <div class="item">Ecosystem-ready — APIs, connectors, portals, dashboards</div>
-      </div>
-      <div class="card">
-        <h2>Possible use cases</h2>
-        <div class="item">Privacy hub: registers, legal bases & consent management</div>
-        <div class="item">Transfers: TIAs, clauses, supplier due diligence & monitoring</div>
-        <div class="item">Automation: workflows, policies, attestations & audits</div>
-        <div class="item">Integrations: GRC, IAM, DLP, MDM, SIEM, evidence store</div>
-      </div>
-    </div>
-
-    <div id="en-why" class="card">
-      <h2>Acquisition (secure process)</h2>
-      <p>NDA → data room → offer → escrow → transfer. Long-term vision & high-value usage.</p>
-      <div class="badges">
-        <span class="badge">Responsible buyers priority</span>
-        <span class="badge">Ethical & compliant use</span>
-        <span class="badge">No official affiliation</span>
-      </div>
-      <div class="btns" style="margin-top:8px">
-        <a class="btn" href="mailto:contact@piplcompliance.com?subject=PIPLCompliance.com%20-%20Contact">Direct contact: contact@piplcompliance.com</a>
-      </div>
-    </div>
-
     <div class="card">
-      <h2>Complementary assets (selection)</h2>
-      <div class="badges">
-        <a class="badge" href="https://www.cbprcompliance.com/" target="_blank" rel="noopener">CBPRCompliance.com — cross-border privacy</a>
-        <a class="badge" href="https://www.nistcsfcompliance.com/" target="_blank" rel="noopener">NISTCSFCompliance.com — CSF 2.0 & controls</a>
-        <a class="badge" href="https://www.dppcompliance.com/" target="_blank" rel="noopener">DPPCompliance.com — Digital Product Passport (ESPR)</a>
-        <a class="badge" href="https://www.passeportproduit.fr/" target="_blank" rel="noopener">PasseportProduit.fr — EU DPP (FR)</a>
-      </div>
-      <p class="small">Multi-asset bundles available — <a href="mailto:contact@piplcompliance.com">contact@piplcompliance.com</a></p>
-    </div>
-    <!-- ===== DOCS EN ===== -->
-    <div id="en-docs" class="card">
-      <h2>Documents / Briefs</h2>
-      <div class="btns">
-        <a class="btn" href="/docs/docspiplcompliance-brief-en-202511.pdf" target="_blank" rel="noopener" download>
-          Download brief (EN, PDF)
-        </a>
-        <a class="btn btn-ghost" href="/docs/docspiplcompliance-brief-en-202511.pdf" target="_blank" rel="noopener">
-          Open in browser
-        </a>
-      </div>
-
-      <details style="margin-top:10px">
-        <summary class="item" style="cursor:pointer">Quick preview (PDF) — loads on open</summary>
-        <div style="margin-top:10px; aspect-ratio: 16/9; max-height:70vh; border:1px solid var(--line); border-radius:10px; overflow:hidden; background:#0f1f33">
-          <iframe
-            src="/docs/docspiplcompliance-brief-en-202511.pdf#view=FitH"
-            title="Preview Brief EN — PIPLCompliance.com"
-            style="width:100%; height:100%; border:0"
-            loading="lazy"
-          ></iframe>
-        </div>
-      </details>
-    </div>
-
-    <div class="footer">
-      © PIPLCompliance.com — premium digital asset. No legal advice. No affiliation with third-party programs/trademarks. Descriptive use only. — Contact: <a href="mailto:contact@piplcompliance.com">contact@piplcompliance.com</a>
+      <h2>Cas d’usage possibles</h2>
+      <div class="item">Hub privacy : registres, bases légales & gestion du consentement</div>
+      <div class="item">Transferts : TIAs, clauses, due diligence fournisseurs & monitoring</div>
+      <div class="item">Automatisation : workflows, politiques, attestations & audits</div>
+      <div class="item">Intégrations : GRC, IAM, DLP, MDM, SIEM, evidence store</div>
     </div>
   </div>
 
+  <div id="fr-why" class="card">
+    <h2>Acquisition (process sécurisé)</h2>
+    <p>NDA → data-room → offre → escrow → transfert. Vision long-terme & usage à forte valeur.</p>
+    <div class="badges">
+      <span class="badge">Priorité acteurs responsables</span>
+      <span class="badge">Usage éthique & conformité</span>
+      <span class="badge">Aucune affiliation officielle</span>
+    </div>
+    <div class="btns" style="margin-top:8px">
+      <a class="btn" href="mailto:contact@piplcompliance.com?subject=PIPLCompliance.com%20-%20Contact">Contact direct : contact@piplcompliance.com</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Actifs complémentaires (sélection)</h2>
+    <div class="badges">
+      <a class="badge" href="https://www.cbprcompliance.com/" target="_blank" rel="noopener">CBPRCompliance.com — transferts transfrontières</a>
+      <a class="badge" href="https://www.nistcsfcompliance.com/" target="_blank" rel="noopener">NISTCSFCompliance.com — CSF 2.0 & contrôles</a>
+      <a class="badge" href="https://www.dppcompliance.com/" target="_blank" rel="noopener">DPPCompliance.com — Digital Product Passport (ESPR)</a>
+      <a class="badge" href="https://www.passeportproduit.fr/" target="_blank" rel="noopener">PasseportProduit.fr — DPP (FR/EU)</a>
+    </div>
+    <p class="small">Packs multi-actifs possibles — <a href="mailto:contact@piplcompliance.com">contact@piplcompliance.com</a></p>
+  </div>
+
+  <!-- Brochures (PDF) — pas d'aperçu, juste Download + Open -->
+  <div class="card" style="border-color:#2d5073">
+    <h2 style="margin-bottom:12px">📄 Brochures PDF</h2>
+    <div class="btns" style="gap:12px">
+      <a class="btn" style="padding:12px 16px;font-weight:600"
+         href="/docspiplcompliance-brief-fr-202511.pdf"
+         download="PIPLCompliance-Brochure-FR-202511.pdf">
+        📥 Télécharger (FR, PDF)
+      </a>
+      <a class="btn btn-ghost" style="padding:12px 16px"
+         href="/docspiplcompliance-brief-fr-202511.pdf" target="_blank" rel="noopener">
+        👁️ Ouvrir dans le navigateur
+      </a>
+      <a class="btn" style="padding:12px 16px;font-weight:600"
+         href="/docspiplcompliance-brief-en-202511.pdf"
+         download="PIPLCompliance-Brochure-EN-202511.pdf">
+        📥 Télécharger (EN, PDF)
+      </a>
+      <a class="btn btn-ghost" style="padding:12px 16px"
+         href="/docspiplcompliance-brief-en-202511.pdf" target="_blank" rel="noopener">
+        👁️ Ouvrir (EN) dans le navigateur
+      </a>
+    </div>
+  </div>
+
+  <div class="footer">
+    © PIPLCompliance.com — actif numérique premium. Pas de conseil juridique. Aucune affiliation avec des marques/organismes tiers.
+    Usage descriptif uniquement. — Contact : <a href="mailto:contact@piplcompliance.com">contact@piplcompliance.com</a>
+  </div>
 </div>
-</body>
-</html>
+
+
+ <!-- ===== EN ===== -->
+<div id="en" style="display:none">
+  <div class="card">
+    <div class="hrow" style="align-items:flex-start">
+      <div>
+        <h1>PIPLCompliance.com</h1>
+        <p style="margin-top:4px;color:#cfd9e6">
+          Authority for <strong>PIPL compliance</strong> & related frameworks: data governance, legal bases & <strong>consent</strong>,
+          cross-border transfers, TIAs, contracts & evidence, <strong>auditability</strong>. Built for <strong>B2B</strong> buyers
+          (GRC/Privacy vendors, consultancies, global groups).
+        </p>
+      </div>
+      <img class="logo" src="/logo-piplcompliance.png" alt="PIPLCompliance.com">
+    </div>
+
+    <p class="note" style="margin-top:8px">
+      <strong>Note:</strong> independent informational site — <strong>descriptive use</strong>. <strong>No official affiliation</strong>
+      with authorities or third-party programs. <strong>No legal advice.</strong>
+    </p>
+
+    <div class="btns" style="margin-top:10px">
+      <a class="btn" href="mailto:contact@piplcompliance.com?subject=PIPLCompliance.com%20-%20Offer%20or%20NDA">Submit an offer / Request NDA</a>
+
+      <!-- LinkedIn (SVG icon inline) -->
+      <a class="btn btn-ghost" href="https://www.linkedin.com/company/piplcompliance" target="_blank" rel="noopener" aria-label="LinkedIn PIPLCompliance">
+        <span style="display:inline-flex;align-items:center;gap:8px">
+          <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5C0 2.12 1.12 1 2.5 1S4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.07c.67-1.27 2.3-2.6 4.73-2.6C22.08 7.6 24 10 24 14.17V24h-5v-8.72c0-2.08-.04-4.76-2.9-4.76c-2.9 0-3.35 2.27-3.35 4.61V24H7.5V8z"/></svg>
+          LinkedIn
+        </span>
+      </a>
+      <a class="btn btn-ghost" href="#en-why">Why this name?</a>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h2>Why this name is valuable</h2>
+      <div class="item">Exact-match & memorable → instant professional signal</div>
+      <div class="item">Direct B2B fit — GRC/Privacy vendors, consultancies, global groups</div>
+      <div class="item">International scope — registers, consent, transfers, evidence</div>
+      <div class="item">Ecosystem-ready — APIs, connectors, portals, dashboards</div>
+    </div>
+    <div class="card">
+      <h2>Possible use cases</h2>
+      <div class="item">Privacy hub: registers, legal bases & consent management</div>
+      <div class="item">Transfers: TIAs, clauses, supplier due diligence & monitoring</div>
+      <div class="item">Automation: workflows, policies, attestations & audits</div>
+      <div class="item">Integrations: GRC, IAM, DLP, MDM, SIEM, evidence store</div>
+    </div>
+  </div>
+
+  <div id="en-why" class="card">
+    <h2>Acquisition (secure process)</h2>
+    <p>NDA → data room → offer → escrow → transfer. Long-term vision & high-value usage.</p>
+    <div class="badges">
+      <span class="badge">Responsible buyers priority</span>
+      <span class="badge">Ethical & compliant use</span>
+      <span class="badge">No official affiliation</span>
+    </div>
+    <div class="btns" style="margin-top:8px">
+      <a class="btn" href="mailto:contact@piplcompliance.com?subject=PIPLCompliance.com%20-%20Contact">Direct contact: contact@piplcompliance.com</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Complementary assets (selection)</h2>
+    <div class="badges">
+      <a class="badge" href="https://www.cbprcompliance.com/" target="_blank" rel="noopener">CBPRCompliance.com — cross-border privacy</a>
+      <a class="badge" href="https://www.nistcsfcompliance.com/" target="_blank" rel="noopener">NISTCSFCompliance.com — CSF 2.0 & controls</a>
+      <a class="badge" href="https://www.dppcompliance.com/" target="_blank" rel="noopener">DPPCompliance.com — Digital Product Passport (ESPR)</a>
+      <a class="badge" href="https://www.passeportproduit.fr/" target="_blank" rel="noopener">PasseportProduit.fr — EU DPP (FR)</a>
+    </div>
+    <p class="small">Multi-asset bundles available — <a href="mailto:contact@piplcompliance.com">contact@piplcompliance.com</a></p>
+  </div>
+
+  <!-- Brochures (PDF) — no preview, just Download + Open -->
+  <div class="card" style="border-color:#2d5073">
+    <h2 style="margin-bottom:12px">📄 PDF Brochures</h2>
+    <div class="btns" style="gap:12px">
+      <a class="btn" style="padding:12px 16px;font-weight:600"
+         href="/docspiplcompliance-brief-en-202511.pdf"
+         download="PIPLCompliance-Brochure-EN-202511.pdf">
+        📥 Download (EN, PDF)
+      </a>
+      <a class="btn btn-ghost" style="padding:12px 16px"
+         href="/docspiplcompliance-brief-en-202511.pdf" target="_blank" rel="noopener">
+        👁️ Open in browser
+      </a>
+      <a class="btn" style="padding:12px 16px;font-weight:600"
+         href="/docspiplcompliance-brief-fr-202511.pdf"
+         download="PIPLCompliance-Brochure-FR-202511.pdf">
+        📥 Download (FR, PDF)
+      </a>
+      <a class="btn btn-ghost" style="padding:12px 16px"
+         href="/docspiplcompliance-brief-fr-202511.pdf" target="_blank" rel="noopener">
+        👁️ Open (FR) in browser
+      </a>
+    </div>
+  </div>
+
+  <div class="footer">
+    © PIPLCompliance.com — premium digital asset. No legal advice. No affiliation with third-party programs/trademarks.
+    Descriptive use only. — Contact: <a href="mailto:contact@piplcompliance.com">contact@piplcompliance.com</a>
+  </div>
+</div>
+
